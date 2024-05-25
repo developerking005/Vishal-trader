@@ -1,0 +1,100 @@
+
+        body {
+            
+            background-size:cover;
+            height: 100%;
+        }
+        .container-fluid{
+            /* background-image: url('./img.jpg'); */
+            background-image: url('./stock.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+        }
+        .telegram-button {
+        display: inline-block;
+        background-color: #0088cc; /* Telegram blue color */
+        color: #ffffff; /* White text color */
+        padding: 10px 15px;
+        font-size:x-large;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 25px;    
+        cursor: pointer; 
+        animation: glowing 1300ms infinite;
+
+    }
+
+    @keyframes glowing {
+    0% {
+      background-color: #209edd;
+      box-shadow: 0 0 5px  #209edd;
+    }
+    50% {
+      background-color: #195c7e;
+      box-shadow: 0 0 20px #195c7e;
+    }
+    100% {
+      background-color:  #209edd;
+      box-shadow: 0 0 5px #209edd;
+    }
+}
+    .telegram-button img {
+        margin-right: 5px;
+    }
+
+    .whatsapp-button{
+        display: inline-block;
+        background-color: rgb(149, 20, 20);  
+        color: #ffffff; /* White text color */
+        padding: 10px 15px;
+        font-size:x-large;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin: 20px 0;
+        cursor: pointer; 
+        animation: glowing2 1300ms infinite;
+    }
+
+    @keyframes glowing2 {
+    0% {
+      background-color: rgb(242, 41, 41);
+      box-shadow: 0 0 5px rgb(223, 27, 27);
+    }
+    50% {
+      background-color: rgb(122, 10, 10);
+      box-shadow: 0 0 20px rgb(168, 16, 16);
+    }
+    100% {
+        background-color: rgb(242, 41, 41);
+      box-shadow: 0 0 5px rgb(223, 27, 27);
+    }
+  }
+  
+    .header{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 35px 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        
+    }
+    .main{
+        margin: 20px 0;
+        font-size:34px;
+    }
+   
+    .otherDataMain{
+        margin-top: 30px;
+        font-weight: 600;
+    }
+    .otherData{
+        margin: 20px 0;
+    }
+    .footerData{
+        margin-top: 40px;
+    }
+ 
+    
